@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1b4f01d800.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="/Assets/My project.png" alt="" class="logo"></li>
+                <li class="name">Sam Music</li>
+                <li class="li-item">Home</li>
+                <li class="li-item abt">About</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="box1">
+            <h1>My Playlist</h1>
+            <div class="sources">
+                <audio src="/Assets/Tum Hi Ho.mp3" id="aud"></audio>
+            </div>
+            <div>
+                <div class="songs">
+                <div class="song">
+                    <img src="/Assets/Bulleya-From-Ae-Dil-Hai-Mushkil-Hindi-2016-500x500.jpg" alt="" class="cover">
+                    <span class="song-name">Bulleya</span><span><i class="fa-solid fa-play song-play"></i></span>
+                </div>
+                <div class="song">
+                    <img src="/Assets/ab67616d0000b27302ef23e492fb485d08068845.jpg" alt="" class="cover">
+                    <span class="song-name">Iktara</span><span><i class="fa-solid fa-play song-play iktara-play"></i></span>
+                </div>
+                <div class="song">
+                    <img src="/Assets/kabhi.jpg" alt="" class="cover">
+                    <span class="song-name kabhi">Kabhi Kabhi Aditi</span><span><i class="fa-solid fa-play song-play kabhi-play"></i></span>
+                </div>
+                <div class="song">
+                    <img src="/Assets/tum.jpg" alt="" class="cover">
+                    <span class="song-name">Tum Hi Ho</span><span><i class="fa-solid fa-play song-play tum-play"></i></span>
+                </div>
+                <div class="song">
+                    <img src="/Assets/tum.jpg" alt="" class="cover">
+                    <span class="song-name sun">Sun Raha Hai</span><span><i class="fa-solid fa-play song-play sun-play"></i></span>
+                </div>
+                <div class="song">
+                    <img src="/Assets/bar.jpg" alt="" class="cover">
+                    <span class="song-name">Barfi</span><span><i class="fa-solid fa-play song-play bar-play"></i></span>
+                </div>
+                <div class="song">
+                    <img src="/Assets/bar.jpg" alt="" class="cover">
+                    <span class="song-name">Kyo Na Hum</span><span><i class="fa-solid fa-play song-play barfi-play"></i></span>
+                </div>
+                <div class="song">
+                    <img src="/Assets/banjara.jpg" alt="" class="cover">
+                    <span class="song-name">Banjara</span><span><i class="fa-solid fa-play song-play ban-play"></i></span>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+
+    </div>
+    <img src="/Assets/Listening happy music-amico.svg" alt="" class="bg">
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step fa-customize back"></i>
+            <i class="fa-solid fa-play fa-customize" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step fa-customize forward"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
