@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+}
+li{
+    /* margin-right: auto; */
+    list-style: none;
+}
+nav ul > :nth-child(1){
+    margin-left: auto;
+}
+.linkDiv{
+    padding: 30px 10px;
+}
+.btn{
+    margin: 20px 30px;
+    
+}
+.button{
+    font-size: 1rem;
+    padding: 8px 25px;
+    background-color: #24a0ed;
+    color: white;
+    border: #24a0ed;
+    border-radius: 0.4rem;
+}
+.container{
+    background-image: url('./Assets/New-Google-Logo-great.jpg');
+    width: 35vw;
+    height: 45vh;
+    margin: auto;
+    background-size: cover;
+    position: relative;
+    bottom: 85px;
+}
+.search{
+    display: flex;
+    position: relative;
+    bottom: 140px;
+}
+.src{
+    margin: auto;
+    width: 50vw;
+    height: 8vh;
+    border-radius: 2rem;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+}
+.src:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+input:focus {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.s{
+    position: absolute;
+    top: 213px;
+    left: 350px;
+    color: #b8bcc4;
+}
+.microphone{
+    background: url('./Assets/Google_Icons-25-512.webp');
+    width: 3vw;
+    height: 7vh;
+    position: absolute;
+    top: 201px;
+    right: 344px;
+    background-size: cover;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+
+}
+.downBtn{
+    margin: 10px;
+    padding: 12px 16px;
+    background-color: rgb(243, 243, 243);
+    border: rgb(243, 243, 243);
+}
+.lang{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.blue{
+    
+    color: blue;
+}
+.footer1{
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    height: 8vh;
+    position: fixed;
+    bottom: 48px;  
+    padding: 14px 20px;  
+    box-sizing: border-box;
+    color: #6b6b6b;
+}
+.footer2{
+    border-top: solid #b8bcc4 1px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    height: 8vh;
+    position: fixed;
+    bottom: 0;
+    color: #6b6b6b;
+}
+.box1 li{
+    display: inline-block;
+    
+}
+.box2 li{
+    display: inline-block;
+}
+.privacy{
+    margin-left: 600px
+}
+.itm{
+    padding: 13px;
+}
+.final{
+    display: flex;
+    background-color: yellow;
+}
+.madeBy{
+    margin: auto;
+    color: red;
+    font-size: 2rem;
+}
